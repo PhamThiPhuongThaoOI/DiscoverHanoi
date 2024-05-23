@@ -1,0 +1,203 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header { 
+    /* color: #fff;
+    padding: 1rem 0;
+    text-align: center; */
+    height: 200px ;
+    color: blue;
+    text-align: center;
+    padding: 1rem 0;
+    top:0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+.background {
+    background-image: linear-gradient(to right bottom,#4fccc639, #04aa6d3b ), url("https://i.pinimg.com/564x/a7/c1/5e/a7c15ebda197bfd43b029159e23c4f0c.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 200px ; */
+    position: relative;
+    
+}
+.title {
+    width: 20%;
+    height: 20%;
+    background-color: aquamarine;
+    border-radius: 4rem;
+    border: 2px solid white;
+    box-sizing: border-box;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.navigation {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.navigation ul {
+    /* list-style: none;
+    padding: 0; */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.navigation ul li {
+    display: inline;
+    margin: 0 10px;
+    background-color: aquamarine;
+    border-radius: 1rem;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.navigation li a {
+    color: blue;
+    text-decoration: none;
+}
+.home :hover {
+    color: black;
+}
+.contact:hover {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+
+main {
+    padding: 20px;
+}
+
+
+h2{
+    color: blue;
+}
+h3 {
+    color: blue;
+}
+section#introduction {
+    text-align: left;
+}
+
+
+section#places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+ol {
+    list-style-type: none; /* Loại bỏ chấm tròn hoặc số mặc định */
+        counter-reset: my-counter; /* Đặt lại biến đếm */
+        padding-left: 0;
+        display: inline-block; /* Loại bỏ khoảng trắng bên trái */
+}
+/* li{
+    white-space: nowrap;
+}
+li::before {
+    content: counter(my-counter) "."; 
+    counter-increment: my-counter; 
+    font-weight: bold; 
+    
+} */
+
+.place-detail{
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    text-align: left;
+}
+
+.img-boxdance  {
+    width: 35rem;
+    border-radius: 8px;
+  
+}
+.img-jump {
+    width: 35rem;
+    border-radius: 8px;
+
+}
+.img-circus {
+    width: 35rem;
+    border-radius: 8px; 
+}
+.img-museum {
+    width: 35rem;
+    border-radius: 8px;
+}
+.img-flower {
+    width: 35rem;
+    border-radius: 8px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+    transition: all 1s;
+}
+
+.background01{
+    margin-left: 30%;
+}
+

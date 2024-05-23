@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Discover Hanoi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+</head>
+<body>
+    <div>
+        <header class="background">
+            <h1 class="title">Discover Hanoi</h1>
+            <nav class="navigation">
+                <ul>
+                    <li class="home"><i class="fas fa-home"></i><a href="index.html">Home</a></li>
+                    <li class="contact"><i class="fas fa-envelope"></i><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <section id="contact-form">
+            <h2>Contact Us</h2>
+            <p><em>If you have any feedback or comments on our suggestions, please connect with us and let us know. We appreciate your input! Thank you!!!</em></p>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Discover Hanoi</p>
+    </footer>
+</body>
+</html>
